@@ -11,6 +11,7 @@ function App() {
       <h1>Weather Patterns</h1>
       <div>
         <p>We love weather. Here are some of the weather patterns that have been intresting lately.</p>
+        {weatherData.map(weather => div key={weather.name})}
         <h3>Snow</h3>
         <ul>
           <li>All snowflakes are diffrent</li>
